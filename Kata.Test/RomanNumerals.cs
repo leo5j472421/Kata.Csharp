@@ -26,7 +26,7 @@ namespace Kata.Test {
         [TestCase(3999,"MMMCMXCIX")]
         public void TestToRoman(int input , string expected)
         {
-            string actual = RomanNumerals.ToRoman(input);
+            string actual = RomanNumerals.RomanNumerals.ToRoman(input);
             Assert.That(actual, Is.EqualTo(expected));
         }
 
@@ -52,7 +52,7 @@ namespace Kata.Test {
         [TestCase("MMMCMXCIX",3999)]
         public void TestFromRoman_001(string input, int expected)
         {
-            int actual = RomanNumerals.FromRoman(input);
+            int actual = RomanNumerals.RomanNumerals.FromRoman(input);
             Assert.That(actual, Is.EqualTo(expected));
         }
     }

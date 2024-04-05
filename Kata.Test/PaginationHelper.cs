@@ -1,3 +1,5 @@
+using Kata.PaginationHelper;
+
 namespace Kata.Test
 {
     // TODO: Replace examples and use TDD development by writing your own tests

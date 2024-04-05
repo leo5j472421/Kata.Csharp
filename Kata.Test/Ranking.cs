@@ -1,3 +1,5 @@
+using Kata.Ranking;
+
 namespace Kata.Test {
     [TestFixture]
     public class UserTest

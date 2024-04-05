@@ -1,4 +1,4 @@
-﻿namespace Kata;
+﻿namespace Kata.Ranking;
 
 public class User {
     public int rank;

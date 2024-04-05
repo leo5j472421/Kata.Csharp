@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿namespace Kata.PaginationHelper;
 
 public class PaginationHelper<T>
 {

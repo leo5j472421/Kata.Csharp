@@ -1,4 +1,4 @@
-﻿namespace Kata;
+﻿namespace Kata.RomanNumerals;
 
 public class RomanNumerals
 {
